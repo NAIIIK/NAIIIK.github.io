@@ -1,1 +1,221 @@
-<h1>Привет, мир!</h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mikita Radzivonau · Java Backend Developer</title>
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- FontAwesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <style>
+    body {
+      background-color: #0d1117;
+      color: #c9d1d9;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    }
+    .badge-container img {
+      display: inline-block;
+      margin: 2px;
+      transition: transform 0.2s ease;
+    }
+    .badge-container img:hover {
+      transform: translateY(-2px);
+    }
+    .project-card {
+      background-color: #161b22;
+      border: 1px solid #30363d;
+      transition: border-color 0.2s ease, transform 0.2s ease;
+    }
+    .project-card:hover {
+      border-color: #58a6ff;
+      transform: translateY(-2px);
+    }
+  </style>
+</head>
+<body class="min-h-screen flex flex-col justify-between p-4 sm:p-8">
+
+  <main class="max-w-4xl mx-auto w-full space-y-8">
+    
+    <!-- Header Section -->
+    <header class="text-center space-y-4 pt-6">
+      <h1 class="text-3xl sm:text-4xl font-bold text-white tracking-tight">
+        Hi, I'm Mikita Radzivonau 👋
+      </h1>
+      <h2 class="text-xl sm:text-2xl font-medium text-blue-400">
+        Mikita Radzivonau · Java Backend Developer
+      </h2>
+      
+      <!-- Typing Animation SVG -->
+      <div class="flex justify-center my-4 overflow-x-auto">
+        <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&pause=1000&color=2F80ED&center=true&vCenter=true&width=600&lines=Java+%7C+Spring+Boot+%7C+Microservices;Kafka+%7C+PostgreSQL+%7C+Redis;Building+production-grade+backend+systems" alt="Typing SVG" class="max-w-full h-auto" />
+      </div>
+    </header>
+
+    <hr class="border-gray-800 my-6" />
+
+    <!-- About Me Section -->
+    <section class="space-y-3">
+      <h3 class="text-xl font-semibold text-white flex items-center gap-2">
+        <span>🚀</span> About Me
+      </h3>
+      <p class="text-gray-300 text-base leading-relaxed bg-[#161b22] p-4 rounded-lg border border-[#30363d]">
+        Java backend developer focused on building reliable, well-tested services.
+      </p>
+    </section>
+
+    <!-- Tech Stack Section -->
+    <section class="space-y-4">
+      <h3 class="text-xl font-semibold text-white flex items-center gap-2">
+        <span>🛠️</span> Tech Stack
+      </h3>
+      
+      <div class="space-y-4 bg-[#161b22] p-5 rounded-lg border border-[#30363d]">
+        <!-- Core & Languages -->
+        <div>
+          <h4 class="text-sm font-medium text-gray-400 mb-2 uppercase tracking-wider">Core & Languages</h4>
+          <div class="badge-container flex flex-wrap gap-1.5">
+            <img src="https://img.shields.io/badge/Java_8+-ED8B00?style=flat-square&logo=openjdk&logoColor=white" alt="Java">
+            <img src="https://img.shields.io/badge/SQL-4479A1?style=flat-square" alt="SQL">
+            <img src="https://img.shields.io/badge/OOP-blue?style=flat-square" alt="OOP">
+            <img src="https://img.shields.io/badge/SOLID-blue?style=flat-square" alt="SOLID">
+            <img src="https://img.shields.io/badge/Design_Patterns-blue?style=flat-square" alt="Design Patterns">
+          </div>
+        </div>
+
+        <!-- Frameworks & Data -->
+        <div>
+          <h4 class="text-sm font-medium text-gray-400 mb-2 uppercase tracking-wider">Frameworks & Data</h4>
+          <div class="badge-container flex flex-wrap gap-1.5">
+            <img src="https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white" alt="Spring Boot">
+            <img src="https://img.shields.io/badge/Spring_MVC-6DB33F?style=flat-square&logo=spring&logoColor=white" alt="Spring MVC">
+            <img src="https://img.shields.io/badge/Spring_Security-6DB33F?style=flat-square&logo=springsecurity&logoColor=white" alt="Spring Security">
+            <img src="https://img.shields.io/badge/Spring_Data_JPA-6DB33F?style=flat-square&logo=spring&logoColor=white" alt="Spring Data JPA">
+            <img src="https://img.shields.io/badge/Hibernate-59666C?style=flat-square&logo=hibernate&logoColor=white" alt="Hibernate">
+            <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" alt="PostgreSQL">
+            <img src="https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white" alt="Redis">
+          </div>
+        </div>
+
+        <!-- Architecture & Tools -->
+        <div>
+          <h4 class="text-sm font-medium text-gray-400 mb-2 uppercase tracking-wider">Architecture & Tools</h4>
+          <div class="badge-container flex flex-wrap gap-1.5">
+            <img src="https://img.shields.io/badge/Microservices-blue?style=flat-square" alt="Microservices">
+            <img src="https://img.shields.io/badge/Apache_Kafka-231F20?style=flat-square&logo=apachekafka&logoColor=white" alt="Kafka">
+            <img src="https://img.shields.io/badge/REST_API-blue?style=flat-square" alt="REST API">
+            <img src="https://img.shields.io/badge/OpenAPI_3.0_/_Swagger-85EA2D?style=flat-square&logo=swagger&logoColor=black" alt="Swagger">
+            <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker">
+            <img src="https://img.shields.io/badge/Docker_Compose-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker Compose">
+            <img src="https://img.shields.io/badge/Maven-C71A36?style=flat-square&logo=apachemaven&logoColor=white" alt="Maven">
+            <img src="https://img.shields.io/badge/Gradle-02303A?style=flat-square&logo=gradle&logoColor=white" alt="Gradle">
+            <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white" alt="Git">
+            <img src="https://img.shields.io/badge/JWT-000000?style=flat-square&logo=jsonwebtokens&logoColor=white" alt="JWT">
+          </div>
+        </div>
+
+        <!-- Testing & CI/CD -->
+        <div>
+          <h4 class="text-sm font-medium text-gray-400 mb-2 uppercase tracking-wider">Testing & CI/CD</h4>
+          <div class="badge-container flex flex-wrap gap-1.5">
+            <img src="https://img.shields.io/badge/JUnit_5-25A162?style=flat-square&logo=junit5&logoColor=white" alt="JUnit 5">
+            <img src="https://img.shields.io/badge/Mockito-58C4DC?style=flat-square" alt="Mockito">
+            <img src="https://img.shields.io/badge/Testcontainers-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Testcontainers">
+            <img src="https://img.shields.io/badge/Flyway-CC0200?style=flat-square&logo=flyway&logoColor=white" alt="Flyway">
+            <img src="https://img.shields.io/badge/Liquibase-2962FF?style=flat-square&logo=liquibase&logoColor=white" alt="Liquibase">
+            <img src="https://img.shields.io/badge/Bean_Validation-blue?style=flat-square" alt="Bean Validation">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Featured Projects Section -->
+    <section class="space-y-4">
+      <h3 class="text-xl font-semibold text-white flex items-center gap-2">
+        <span>📌</span> Featured Projects
+      </h3>
+      
+      <div class="grid grid-cols-1 gap-4">
+        <!-- Project 1 -->
+        <a href="https://github.com/NAIIIK/payment-service" target="_blank" class="project-card p-5 rounded-lg block group">
+          <div class="flex items-center justify-between mb-2">
+            <h4 class="text-lg font-bold text-blue-400 group-hover:underline flex items-center gap-2">
+              💳 RESTful Payment Processing Service
+            </h4>
+            <i class="fa-solid fa-arrow-up-right-from-square text-xs text-gray-500 group-hover:text-blue-400"></i>
+          </div>
+          <p class="text-gray-300 text-sm leading-relaxed">
+            Production-grade patterns: hexagonal architecture, idempotency, optimistic locking, audit trail, structured logging, JWT authentication.
+          </p>
+        </a>
+
+        <!-- Project 2 -->
+        <a href="https://github.com/NAIIIK/postgres-redis-benchmark" target="_blank" class="project-card p-5 rounded-lg block group">
+          <div class="flex items-center justify-between mb-2">
+            <h4 class="text-lg font-bold text-blue-400 group-hover:underline flex items-center gap-2">
+              ⚡ PostgreSQL vs Redis — Benchmark Utility
+            </h4>
+            <i class="fa-solid fa-arrow-up-right-from-square text-xs text-gray-500 group-hover:text-blue-400"></i>
+          </div>
+          <p class="text-gray-300 text-sm leading-relaxed">
+            Benchmarking tool comparing read performance between PostgreSQL and Redis.
+          </p>
+        </a>
+
+        <!-- Project 3 -->
+        <a href="https://github.com/NAIIIK/multithreading-project" target="_blank" class="project-card p-5 rounded-lg block group">
+          <div class="flex items-center justify-between mb-2">
+            <h4 class="text-lg font-bold text-blue-400 group-hover:underline flex items-center gap-2">
+              🏝️ Island Simulation — Multithreading Project
+            </h4>
+            <i class="fa-solid fa-arrow-up-right-from-square text-xs text-gray-500 group-hover:text-blue-400"></i>
+          </div>
+          <p class="text-gray-300 text-sm leading-relaxed">
+            A multithreaded island ecosystem simulation exploring concurrency patterns in Java.
+          </p>
+        </a>
+      </div>
+    </section>
+
+    <!-- Languages Section -->
+    <section class="space-y-3">
+      <h3 class="text-xl font-semibold text-white flex items-center gap-2">
+        <span>🌍</span> Languages
+      </h3>
+      <div class="badge-container flex flex-wrap gap-2 bg-[#161b22] p-4 rounded-lg border border-[#30363d]">
+        <img src="https://img.shields.io/badge/Russian-Native-blue?style=flat-square&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNDgwIj48ZyBmaWxsLXJ1bGU9ImV2ZW5vZGQiIHN0cm9rZS13aWR0aD0iMXB0Ij48cGF0aCBmaWxsPSIjZmZmZmZmIiBkPSJNMCAwaDY0MHY0ODBIMHoiLz48cGF0aCBmaWxsPSIjMDAzOWE2IiBkPSJNMCAxNjBoNjQwdjMyMEgweiIvPjxwYXRoIGZpbGw9IiNkNTI1NDYiIGQ9Ik0wIDMyMGg2NDB2MTYwSDB6Ii8+PC9nPjwvc3ZnPg==" alt="Russian Native">
+        <img src="https://img.shields.io/badge/Polish-C1-dc143c?style=flat-square&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNDgwIj48cGF0aCBmaWxsPSIjZGMxNDNjIiBkPSJNMCAwaDY0MHY0ODBIMHoiLz48cGF0aCBmaWxsPSIjZmZmZmZmIiBkPSJNMCAwaDY0MHYyNDBIMHoiLz48L3N2Zz4=" alt="Polish C1">
+        <img src="https://img.shields.io/badge/English-B2_(TELC)-012169?style=flat-square&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2MCAzMCI+PGNsaXBQYXRoIGlkPSJzIj48cGF0aCBkPSJNMCAwdjMwaDYwVjB6Ii8+PC9jbGlwUGF0aD48ZyBjbGlwLXBhdGg9InVybCgjcykiPjxwYXRoIGQ9Ik0wIDB2MzBoNjBWMHoiIGZpbGw9IiMwMTIxNjkiLz48cGF0aCBkPSJNMCAwbDYwIDMwTTYwIDBMMCAzMCIgc3Ryb2tlPSIjZmZmIiBzdHJva2Utd2lkdGg9IjYiLz48cGF0aCBkPSJNMCAwbDYwIDMwTTYwIDBMMCAzMCIgc3Ryb2tlPSIjQzgxMDJFIiBzdHJva2Utd2lkdGg9IjQiLz48cGF0aCBkPSJNMzAgMHYzME0wIDE1aDYwIiBzdHJva2U9IiNmZmYiIHN0cm9rZS13aWR0aD0iMTAiLz48cGF0aCBkPSJNMzAgMHYzME0wIDE1aDYwIiBzdHJva2U9IiNDODEwMkUiIHN0cm9rZS13aWR0aD0iNiIvPjwvZz48L3N2Zz4=" alt="English B2 TELC">
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="space-y-4 pt-4 text-center">
+      <h3 class="text-xl font-semibold text-white flex items-center justify-center gap-2">
+        <span>📫</span> Contact
+      </h3>
+      
+      <div class="flex flex-wrap justify-center gap-3">
+        <a href="https://t.me/babzooniz" target="_blank" class="hover:opacity-85 transition-opacity">
+          <img src="https://img.shields.io/badge/Telegram-26A5E4?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram">
+        </a>
+        <a href="https://wa.me/qr/NLUVXHU2NIAAI1" target="_blank" class="hover:opacity-85 transition-opacity">
+          <img src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" alt="WhatsApp">
+        </a>
+        <a href="mailto:radzivonaumikita@gmail.com" target="_blank" class="hover:opacity-85 transition-opacity">
+          <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email">
+        </a>
+        <a href="https://linkedin.com/in/mikita-radzivonau" target="_blank" class="hover:opacity-85 transition-opacity">
+          <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn">
+        </a>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="text-center text-xs text-gray-600 mt-12 py-4">
+    © Mikita Radzivonau · Hosted on GitHub Pages
+  </footer>
+
+</body>
+</html>
